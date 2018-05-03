@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Modal from './Modal'
 import About from './About'
 import Menu from './Menu'
 import Merch from './Merch'
@@ -10,13 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Modal/>
         <Navbar/>
-        <h1>Welcome to the cat cafe</h1>
-        <div>modal with email sign up option</div>
         <About/>
-        <Menu />
-        <Merch />
-        <Contact/>
         <Footer/>
       </div>
     );

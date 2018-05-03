@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div id="footer">Made with love by Kelly Sample</div>
+    <div id="footer">Made by Kelly Sample</div>
   )
 }
 
