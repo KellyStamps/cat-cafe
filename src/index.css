@@ -1,5 +1,48 @@
-body {
+body, html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+#navbar {
+  background-color: purple;
+  color: white;
+  margin: 0px;
+  padding: 15px;
+}
+
+#navbar li {
+  display: inline;
+  margin: 20px;
+}
+
+#footer {
+  margin: 80px auto 0px auto;
+  text-align: center;
+}
+
+#about {
+  text-align: center;
+}
+
+#carousel {
+  display: flex;
+  overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+#carousel div {
+  flex-shrink: 0;
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+}
+
+#carousel div img {
+  max-width: 100%;
+  max-height: 100%;
 }
